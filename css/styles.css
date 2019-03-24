@@ -1,0 +1,202 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #ffb549;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #040000;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  padding-top: 40px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Oxygen', serif;
+  color: #ffffff;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: white;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid white;
+  color: white;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/* END HEADER */
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  .navbar-brand {
+  position: relative;
+  padding-top: 30px;
+  margin-left: 10px;
+  height: 100px;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+  .navbar-brand {
+    position: relative;
+    padding-top: 30px;
+    height: 100px;
+  }
+
+  /* End Header */
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .navbar-brand {
+    position: relative;
+    padding-top: 30px;
+    height: 100px;
+  }
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 30px;
+    height: 88px;
+  }
+
+    #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.3em;
+    color: #ffffff;
+  }
+
+  /* End Header */
+}
+
+/********** Bodys **********/
+
+#menus h1{
+  font-family: 'Oxygen', serif;
+  color: #260033;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  line-height: .75;
+  text-align: center;
+
+}
+
+.chicken_sec{
+  position: relative;
+  background-color: #feda77;
+  margin: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
+  border: 1px solid black;
+}
+.chicken {
+  color: #040000;
+  margin: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
+  font-size: 1.2em;
+}
+
+.beef_sec{
+  position: relative;
+  background-color: #feda77;
+  margin: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
+  border: 1px solid black;
+}
+.beef {
+  color: #040000;
+  margin: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
+  font-size: 1.2em;
+}
+
+.sushi_sec{
+  position: relative;
+  background-color: #feda77;
+  margin: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
+  border: 1px solid black;
+}
+.sushi {
+  color: #040000;
+  margin: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
+  font-size: 1.2em;
+}
+
+
+.chicken_title{
+  font-family: 'Oxygen', sans-serif;
+  color: black;
+  text-align: center;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+.beef_title{
+  font-family: 'Oxygen', sans-serif;
+  color: black;
+  text-align: center;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+.sushi_title{
+  font-family: 'Oxygen', sans-serif;
+  color: black;
+  text-align: center;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
